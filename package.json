@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "start:lambda": "netlify-lambda serve functions",
     "prod": "npm start; npm run build:lambda",
     "build:lambda": "netlify-lambda build functions"
